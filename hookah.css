@@ -1,0 +1,364 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/* first nav bar for hookah page */
+.ul-items {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 25px 0px;
+}
+.li-items a {
+  margin: 10px 5px;
+  padding: 14px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 0.1s;
+  font-family: "Raleway", sans-serif;
+}
+
+.li-items a:hover {
+  background-color: black;
+  color: white;
+}
+.cart a {
+  position: absolute;
+  top: 13px;
+  left: 1390px;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  padding: 30px 10px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+}
+.cart a:hover{
+  box-shadow: 1px 1px 5px 1px black;  
+
+}
+.cart-img {
+  position: absolute;
+  top: 21px;
+  left: 1405px;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/* picture holder 1 for hookah page */
+.head1 {
+  text-align: center;
+  font-size: 29px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.head1 h2::first-letter
+{
+    font-size: 60px;
+}
+.holder {
+  display: flex;
+  justify-content: center;
+}
+.img-holder {
+  width: 200px;
+  height: 349px;
+  background-color: rgb(211, 211, 211);
+  margin: 0px 17px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all;
+    transition: 0.3s;
+}
+.img-holder:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+.img-prices-:hover .img-holder2{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+/* images of the holder */
+.images {
+    width: 200px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+  height: 284px;
+}
+
+.img-prices {
+  display: flex;
+  justify-content: center;
+
+}
+.img-prices a{
+  color: rgb(255, 0, 85);
+
+}
+.p1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#img-price1 {
+  position: absolute;
+  top: 514px;
+  left: 114px;
+}
+#img-price2 {
+  position: absolute;
+  top: 514px;
+  left: 341px;
+}
+#img-price3 {
+  position: absolute;
+  top: 514px;
+  left: 580px;
+}
+#img-price4 {
+  position: absolute;
+  top: 514px;
+  left: 808px;
+}
+#img-price5 {
+  position: absolute;
+  top: 514px;
+  left: 1063px;
+}
+#img-price6 {
+  position: absolute;
+  top: 514px;
+  left: 1278px;
+}
+
+/* picture holder 2 for hookah page */
+.head2{
+    text-align: center;
+  font-size: 29px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.head2::first-letter{
+    font-size: 60px;
+}
+.holder2{
+    display: flex;
+    justify-content: center;
+}
+.img-holder2{
+    background-color: rgb(211, 211, 211);
+    width: 200px;
+    height: 349px;
+    margin: 0px 30px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all;
+    transition: 0.3s;
+}
+.img-holder2:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.images-2{
+    width:200px;
+    height: 284px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.img-prices-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .img-prices-2 a{
+    color: rgb(255, 0, 85);
+    /* font-weight:bolder; */
+  }
+  
+.p2{
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+#img-price7{
+  position: absolute;
+  top: 1012px;
+  left: 300px;
+}
+#img-price8{
+  position: absolute;
+  top: 1012px;
+  left: 561px;
+}
+#img-price9{
+  position: absolute;
+  top: 1012px;
+  right: 562px;
+}
+#img-price10{
+  position: absolute;
+  top: 1012px;
+  right: 295px;
+}
+
+/* picture holder 3 for hookah page */
+
+.head3{
+  text-align: center;
+font-size: 29px;
+letter-spacing: 2px;
+margin-top: 15px;
+font-family: 'Montserrat', sans-serif;
+/* color: rgb(0, 0, 0); */
+
+}
+
+.head3::first-letter{
+  font-size: 60px;
+}
+
+.holder3{
+  display: flex;
+  justify-content: center;
+}
+.img-holder3{
+  background-color: rgb(211, 211, 211);
+  width: 200px;
+  height: 349px;
+  margin: 0px 30px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: all;
+  transition: 0.3s;
+}
+.img-holder3:hover{
+box-shadow: 2px 2px 2px 2px black;
+}
+
+.images-3{
+  width:200px;
+  height: 284px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.img-prices-3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.p3{
+  font-family: "Raleway", sans-serif;
+}
+.p3 a{
+  font-weight: bold;
+  color: rgb(255, 0, 85);
+}
+
+#img-price11{
+  position: absolute;
+    top: 1507px;
+    left: 428px;
+}
+
+#img-price12{
+  position: absolute;
+  top: 1507px;
+  left: 690px;
+}
+#img-price13{
+  position: absolute;
+  top: 1507px;
+  right: 434px;
+}
+
+/* footer of the page */
+
+.footer
+{
+  margin-top: 100px;
+    display: flex;
+    background-color: #efefef;
+    height: 350px;
+}
+
+.footer-head{
+  position: absolute;
+    top: 1667px;
+    left: 559px;
+    font-family: 'Rubik', sans-serif;
+  text-decoration: underline;
+}
+.comment-box{
+  position: absolute;
+    top: 1800px;
+    left: 110px;
+  }
+  #box{
+    font-size: 15px;
+    padding: 36px 7px;
+    padding-right: 62px;
+}
+  #submit-btn{
+    margin: 25px 0px;
+    padding: 10px 19px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: white;
+    border-color:white;
+    cursor: pointer;
+  }
+  .contact-us{
+    font-size: 22px;
+    height:23px;
+    position: absolute;
+    top: 1805px;
+    left: 655px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+  .contact-us-img{
+    display: flex;
+    position: absolute;
+    left: 650px;
+    top: 1850px;
+  }
+  .contact-us-img a img{
+    width: 28px;
+    height: 28px;
+    margin: 0px 4px;
+    border-radius: 5px;
+  }
+.contact-us-2{
+  font-size: 22px;
+    height: 23px;
+    position: absolute;
+    top: 1800px;
+    left: 1107px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+.contact-us-content{
+  position: absolute;
+  top: 1850px;
+  right: 163px;
+  color: #545454;
+}
